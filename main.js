@@ -1,4 +1,4 @@
-let UserName = prompt ("Lütfen Kullanıcı Adınızı Giriniz:")
+let UserName = prompt ("Lütfen Kullanıcı Adınızı Giriniz:  ")
 let myName = document.querySelector("#myName");
 myName.innerHTML = `${UserName}`
 
